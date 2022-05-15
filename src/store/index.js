@@ -23,6 +23,10 @@ export default createStore({
   },
   // methods
   mutations: {
+    setTitle(state, data){
+      state.name = data.name
+      state.job = data.job
+    }
   },
   actions: {
   },
